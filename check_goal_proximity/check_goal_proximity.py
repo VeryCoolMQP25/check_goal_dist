@@ -17,7 +17,7 @@ class checkGoal(Node):
 
         #  subscription for the current_pose
 
-        self.floor_subscription = self.create_subscription(
+        self.curr_pose_subscription = self.create_subscription(
             PoseWithCovarianceStamped,  # current_floor is of type Int32
             '/amcl_pose',
             self.update_curr_pose,
@@ -26,7 +26,7 @@ class checkGoal(Node):
 
         #  subscription for the goal_pose
 
-        self.floor_subscription = self.create_subscription(
+        self.goal_pose_subscription = self.create_subscription(
             PoseStamped,  # current_floor is of type Int32
             '/goal_pose',
             self.update_goal_pose,
@@ -41,6 +41,9 @@ class checkGoal(Node):
        # self.get_logger().info('Received curr pose: %s' % str(msg))
         self.current_pose = msg
 
+        if self.goal_pose is None:
+            return 
+        
         curr_pose_x = abs(self.current_pose.pose.pose.position.x)
         curr_pose_y = abs(self.current_pose.pose.pose.position.x)
         goal_pose_x = abs(self.goal_pose.pose.position.x)

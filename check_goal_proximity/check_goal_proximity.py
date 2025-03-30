@@ -1,6 +1,8 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import PoseStamped
+from geometry_msgs.msg import PoseWithCovarianceStamped
+
 from std_msgs.msg import Int32  # Import the message type to publish
 
 class checkGoal(Node):
@@ -9,7 +11,7 @@ class checkGoal(Node):
 
         # Default current & requested floor to 1
 
-        self.current_pose = PoseStamped()
+        self.current_pose = PoseWithCovarianceStamped()
         self.goal_pose = PoseStamped()
         self.goal_reached = Int32()
 

@@ -1,0 +1,35 @@
+running egg_info
+creating build/check_goal_proximity/check_goal_proximity.egg-info
+writing build/check_goal_proximity/check_goal_proximity.egg-info/PKG-INFO
+writing dependency_links to build/check_goal_proximity/check_goal_proximity.egg-info/dependency_links.txt
+writing entry points to build/check_goal_proximity/check_goal_proximity.egg-info/entry_points.txt
+writing requirements to build/check_goal_proximity/check_goal_proximity.egg-info/requires.txt
+writing top-level names to build/check_goal_proximity/check_goal_proximity.egg-info/top_level.txt
+writing manifest file 'build/check_goal_proximity/check_goal_proximity.egg-info/SOURCES.txt'
+reading manifest file 'build/check_goal_proximity/check_goal_proximity.egg-info/SOURCES.txt'
+writing manifest file 'build/check_goal_proximity/check_goal_proximity.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build
+creating /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib
+creating /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib/check_goal_proximity
+copying check_goal_proximity/check_goal_proximity.py -> /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib/check_goal_proximity
+copying check_goal_proximity/__init__.py -> /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib/check_goal_proximity
+running install
+running install_lib
+creating /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity
+copying /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib/check_goal_proximity/check_goal_proximity.py -> /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity
+copying /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib/check_goal_proximity/__init__.py -> /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity
+byte-compiling /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity/check_goal_proximity.py to check_goal_proximity.cpython-310.pyc
+byte-compiling /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/ament_index
+creating /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/ament_index/resource_index
+creating /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/ament_index/resource_index/packages
+copying resource/check_goal_proximity -> /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/ament_index/resource_index/packages
+copying package.xml -> /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/check_goal_proximity
+running install_egg_info
+Copying build/check_goal_proximity/check_goal_proximity.egg-info to /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity-0.0.0-py3.10.egg-info
+running install_scripts
+Installing check_goal_proximity script to /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/check_goal_proximity
+writing list of installed files to '/home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/install.log'

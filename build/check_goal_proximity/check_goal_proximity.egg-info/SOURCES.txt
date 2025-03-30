@@ -1,0 +1,17 @@
+README.md
+package.xml
+setup.cfg
+setup.py
+build/check_goal_proximity/check_goal_proximity.egg-info/PKG-INFO
+build/check_goal_proximity/check_goal_proximity.egg-info/SOURCES.txt
+build/check_goal_proximity/check_goal_proximity.egg-info/dependency_links.txt
+build/check_goal_proximity/check_goal_proximity.egg-info/entry_points.txt
+build/check_goal_proximity/check_goal_proximity.egg-info/requires.txt
+build/check_goal_proximity/check_goal_proximity.egg-info/top_level.txt
+build/check_goal_proximity/check_goal_proximity.egg-info/zip-safe
+check_goal_proximity/__init__.py
+check_goal_proximity/check_goal_proximity.py
+resource/check_goal_proximity
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

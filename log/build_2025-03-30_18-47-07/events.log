@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.004765] (check_goal_proximity) JobQueued: {'identifier': 'check_goal_proximity', 'dependencies': OrderedDict()}
+[0.004905] (check_goal_proximity) JobStarted: {'identifier': 'check_goal_proximity'}
+[0.099292] (-) TimerEvent: {}
+[0.200359] (-) TimerEvent: {}
+[0.301457] (-) TimerEvent: {}
+[0.402164] (-) TimerEvent: {}
+[0.502799] (-) TimerEvent: {}
+[0.603555] (-) TimerEvent: {}
+[0.704328] (-) TimerEvent: {}
+[0.805058] (-) TimerEvent: {}
+[0.905899] (-) TimerEvent: {}
+[1.006693] (-) TimerEvent: {}
+[1.107392] (-) TimerEvent: {}
+[1.208146] (-) TimerEvent: {}
+[1.309070] (-) TimerEvent: {}
+[1.409900] (-) TimerEvent: {}
+[1.510688] (-) TimerEvent: {}
+[1.611442] (-) TimerEvent: {}
+[1.712342] (-) TimerEvent: {}
+[1.813196] (-) TimerEvent: {}
+[1.846130] (check_goal_proximity) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/check_goal_proximity', 'build', '--build-base', '/home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build', 'install', '--record', '/home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tori/ros2_ws/src/check_goal_dist', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tori', 'SSH_CLIENT': '130.215.125.55 46478 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:', 'MOTD_SHOWN': 'pam', 'HOME': '/home/tori', 'OLDPWD': '/home/tori/ros2_ws/src', 'COLCON_EXTENSION_BLOCKLIST': 'colcon_core.event_handler.desktop_notification', 'SSH_TTY': '/dev/pts/2', 'JETSON_L4T': '36.4.3', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/tori/ros2_ws/install:/home/tori/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tori', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1421223059632', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/cuda/bin:/home/tori/.local/bin:/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'AMENT_PREFIX_PATH': '/home/tori/ros2_ws/install/vision:/home/tori/ros2_ws/install/tori_bringup:/home/tori/ros2_ws/install/sllidar_ros2:/home/tori/ros2_ws/install/pkg_template:/home/tori/ros2_ws/install/opencv_button_finder:/home/tori/ros2_ws/install/odom_tf_convert:/home/tori/ros2_ws/install/map_loader:/home/tori/ros2_ws/install/lift_pid_controller:/home/tori/ros2_ws/install/goal_pose_filter:/home/tori/ros2_ws/install/elevator_orchestrator:/home/tori/ros2_ws/install/check_goal_proximity:/home/tori/ros2_ws/install/battery_monitor:/home/tori/ros2_ws/src/install/vision:/home/tori/ros2_ws/src/install/tori_bringup:/home/tori/ros2_ws/src/install/sllidar_ros2:/home/tori/ros2_ws/src/install/pkg_template:/home/tori/ros2_ws/src/install/opencv_button_finder:/home/tori/ros2_ws/src/install/odom_tf_convert:/home/tori/ros2_ws/src/install/map_loader:/home/tori/ros2_ws/src/install/lift_pid_controller:/home/tori/ros2_ws/src/install/goal_pose_filter:/home/tori/ros2_ws/src/install/elevator_orchestrator:/home/tori/ros2_ws/src/install/check_goal_proximity:/home/tori/ros2_ws/src/install/battery_monitor:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity', 'SSH_CONNECTION': '130.215.125.55 46478 130.215.210.210 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages:/home/tori/ros2_ws/install/vision/lib/python3.10/site-packages:/home/tori/ros2_ws/install/pkg_template/lib/python3.10/site-packages:/home/tori/ros2_ws/install/opencv_button_finder/lib/python3.10/site-packages:/home/tori/ros2_ws/install/odom_tf_convert/lib/python3.10/site-packages:/home/tori/ros2_ws/install/map_loader/lib/python3.10/site-packages:/home/tori/ros2_ws/install/lift_pid_controller/lib/python3.10/site-packages:/home/tori/ros2_ws/install/goal_pose_filter/lib/python3.10/site-packages:/home/tori/ros2_ws/install/elevator_orchestrator/lib/python3.10/site-packages:/home/tori/ros2_ws/install/check_goal_proximity/lib/python3.10/site-packages:/home/tori/ros2_ws/install/battery_monitor/lib/python3.10/site-packages:/home/tori/ros2_ws/src/install/vision/lib/python3.10/site-packages:/home/tori/ros2_ws/src/install/pkg_template/lib/python3.10/site-packages:/home/tori/ros2_ws/src/install/opencv_button_finder/lib/python3.10/site-packages:/home/tori/ros2_ws/src/install/odom_tf_convert/lib/python3.10/site-packages:/home/tori/ros2_ws/src/install/map_loader/lib/python3.10/site-packages:/home/tori/ros2_ws/src/install/lift_pid_controller/lib/python3.10/site-packages:/home/tori/ros2_ws/src/install/goal_pose_filter/lib/python3.10/site-packages:/home/tori/ros2_ws/src/install/elevator_orchestrator/lib/python3.10/site-packages:/home/tori/ros2_ws/src/install/check_goal_proximity/lib/python3.10/site-packages:/home/tori/ros2_ws/src/install/battery_monitor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'JETSON_JETPACK': '6.2', 'CMAKE_PREFIX_PATH': '/home/tori/ros2_ws/install/tori_bringup:/home/tori/ros2_ws/install/sllidar_ros2:/home/tori/ros2_ws/src/install/tori_bringup:/home/tori/ros2_ws/src/install/sllidar_ros2', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[1.913869] (-) TimerEvent: {}
+[2.014551] (-) TimerEvent: {}
+[2.115337] (-) TimerEvent: {}
+[2.222005] (-) TimerEvent: {}
+[2.322624] (-) TimerEvent: {}
+[2.429897] (-) TimerEvent: {}
+[2.538122] (-) TimerEvent: {}
+[2.639837] (-) TimerEvent: {}
+[2.740451] (-) TimerEvent: {}
+[2.841849] (-) TimerEvent: {}
+[2.942493] (-) TimerEvent: {}
+[3.043135] (-) TimerEvent: {}
+[3.144675] (-) TimerEvent: {}
+[3.249882] (-) TimerEvent: {}
+[3.350459] (-) TimerEvent: {}
+[3.451083] (-) TimerEvent: {}
+[3.518533] (check_goal_proximity) StdoutLine: {'line': b'running egg_info\n'}
+[3.519551] (check_goal_proximity) StdoutLine: {'line': b'creating build/check_goal_proximity/check_goal_proximity.egg-info\n'}
+[3.551289] (-) TimerEvent: {}
+[3.556781] (check_goal_proximity) StdoutLine: {'line': b'writing build/check_goal_proximity/check_goal_proximity.egg-info/PKG-INFO\n'}
+[3.557409] (check_goal_proximity) StdoutLine: {'line': b'writing dependency_links to build/check_goal_proximity/check_goal_proximity.egg-info/dependency_links.txt\n'}
+[3.557797] (check_goal_proximity) StdoutLine: {'line': b'writing entry points to build/check_goal_proximity/check_goal_proximity.egg-info/entry_points.txt\n'}
+[3.558103] (check_goal_proximity) StdoutLine: {'line': b'writing requirements to build/check_goal_proximity/check_goal_proximity.egg-info/requires.txt\n'}
+[3.558280] (check_goal_proximity) StdoutLine: {'line': b'writing top-level names to build/check_goal_proximity/check_goal_proximity.egg-info/top_level.txt\n'}
+[3.558570] (check_goal_proximity) StdoutLine: {'line': b"writing manifest file 'build/check_goal_proximity/check_goal_proximity.egg-info/SOURCES.txt'\n"}
+[3.635145] (check_goal_proximity) StdoutLine: {'line': b"reading manifest file 'build/check_goal_proximity/check_goal_proximity.egg-info/SOURCES.txt'\n"}
+[3.636311] (check_goal_proximity) StdoutLine: {'line': b"writing manifest file 'build/check_goal_proximity/check_goal_proximity.egg-info/SOURCES.txt'\n"}
+[3.636638] (check_goal_proximity) StdoutLine: {'line': b'running build\n'}
+[3.636826] (check_goal_proximity) StdoutLine: {'line': b'running build_py\n'}
+[3.637107] (check_goal_proximity) StdoutLine: {'line': b'creating /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build\n'}
+[3.637323] (check_goal_proximity) StdoutLine: {'line': b'creating /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib\n'}
+[3.637907] (check_goal_proximity) StdoutLine: {'line': b'creating /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib/check_goal_proximity\n'}
+[3.638192] (check_goal_proximity) StdoutLine: {'line': b'copying check_goal_proximity/check_goal_proximity.py -> /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib/check_goal_proximity\n'}
+[3.638568] (check_goal_proximity) StdoutLine: {'line': b'copying check_goal_proximity/__init__.py -> /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib/check_goal_proximity\n'}
+[3.638803] (check_goal_proximity) StdoutLine: {'line': b'running install\n'}
+[3.648521] (check_goal_proximity) StdoutLine: {'line': b'running install_lib\n'}
+[3.651329] (-) TimerEvent: {}
+[3.686245] (check_goal_proximity) StdoutLine: {'line': b'creating /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity\n'}
+[3.686926] (check_goal_proximity) StdoutLine: {'line': b'copying /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib/check_goal_proximity/check_goal_proximity.py -> /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity\n'}
+[3.687200] (check_goal_proximity) StdoutLine: {'line': b'copying /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib/check_goal_proximity/__init__.py -> /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity\n'}
+[3.688127] (check_goal_proximity) StdoutLine: {'line': b'byte-compiling /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity/check_goal_proximity.py to check_goal_proximity.cpython-310.pyc\n'}
+[3.689277] (check_goal_proximity) StdoutLine: {'line': b'byte-compiling /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity/__init__.py to __init__.cpython-310.pyc\n'}
+[3.689624] (check_goal_proximity) StdoutLine: {'line': b'running install_data\n'}
+[3.690037] (check_goal_proximity) StdoutLine: {'line': b'creating /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/ament_index\n'}
+[3.690390] (check_goal_proximity) StdoutLine: {'line': b'creating /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/ament_index/resource_index\n'}
+[3.690659] (check_goal_proximity) StdoutLine: {'line': b'creating /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/ament_index/resource_index/packages\n'}
+[3.691015] (check_goal_proximity) StdoutLine: {'line': b'copying resource/check_goal_proximity -> /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/ament_index/resource_index/packages\n'}
+[3.691247] (check_goal_proximity) StdoutLine: {'line': b'copying package.xml -> /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/check_goal_proximity\n'}
+[3.691467] (check_goal_proximity) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.731328] (check_goal_proximity) StdoutLine: {'line': b'Copying build/check_goal_proximity/check_goal_proximity.egg-info to /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity-0.0.0-py3.10.egg-info\n'}
+[3.733008] (check_goal_proximity) StdoutLine: {'line': b'running install_scripts\n'}
+[3.751481] (-) TimerEvent: {}
+[3.852145] (-) TimerEvent: {}
+[3.952884] (-) TimerEvent: {}
+[4.053635] (-) TimerEvent: {}
+[4.118350] (check_goal_proximity) StdoutLine: {'line': b'Installing check_goal_proximity script to /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/check_goal_proximity\n'}
+[4.119772] (check_goal_proximity) StdoutLine: {'line': b"writing list of installed files to '/home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/install.log'\n"}
+[4.153926] (-) TimerEvent: {}
+[4.193848] (check_goal_proximity) CommandEnded: {'returncode': 0}
+[4.228314] (check_goal_proximity) JobEnded: {'identifier': 'check_goal_proximity', 'rc': 0}
+[4.231776] (-) EventReactorShutdown: {}

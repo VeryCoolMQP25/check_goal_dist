@@ -1,0 +1,37 @@
+[1.848s] Invoking command in '/home/tori/ros2_ws/src/check_goal_dist': PYTHONPATH=/home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/check_goal_proximity build --build-base /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build install --record /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/install.log --single-version-externally-managed install_data
+[3.514s] running egg_info
+[3.515s] creating build/check_goal_proximity/check_goal_proximity.egg-info
+[3.552s] writing build/check_goal_proximity/check_goal_proximity.egg-info/PKG-INFO
+[3.553s] writing dependency_links to build/check_goal_proximity/check_goal_proximity.egg-info/dependency_links.txt
+[3.553s] writing entry points to build/check_goal_proximity/check_goal_proximity.egg-info/entry_points.txt
+[3.553s] writing requirements to build/check_goal_proximity/check_goal_proximity.egg-info/requires.txt
+[3.553s] writing top-level names to build/check_goal_proximity/check_goal_proximity.egg-info/top_level.txt
+[3.554s] writing manifest file 'build/check_goal_proximity/check_goal_proximity.egg-info/SOURCES.txt'
+[3.631s] reading manifest file 'build/check_goal_proximity/check_goal_proximity.egg-info/SOURCES.txt'
+[3.631s] writing manifest file 'build/check_goal_proximity/check_goal_proximity.egg-info/SOURCES.txt'
+[3.632s] running build
+[3.632s] running build_py
+[3.632s] creating /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build
+[3.633s] creating /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib
+[3.633s] creating /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib/check_goal_proximity
+[3.634s] copying check_goal_proximity/check_goal_proximity.py -> /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib/check_goal_proximity
+[3.634s] copying check_goal_proximity/__init__.py -> /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib/check_goal_proximity
+[3.634s] running install
+[3.644s] running install_lib
+[3.682s] creating /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity
+[3.682s] copying /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib/check_goal_proximity/check_goal_proximity.py -> /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity
+[3.682s] copying /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build/lib/check_goal_proximity/__init__.py -> /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity
+[3.683s] byte-compiling /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity/check_goal_proximity.py to check_goal_proximity.cpython-310.pyc
+[3.685s] byte-compiling /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity/__init__.py to __init__.cpython-310.pyc
+[3.685s] running install_data
+[3.685s] creating /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/ament_index
+[3.686s] creating /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/ament_index/resource_index
+[3.686s] creating /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/ament_index/resource_index/packages
+[3.686s] copying resource/check_goal_proximity -> /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/ament_index/resource_index/packages
+[3.686s] copying package.xml -> /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/check_goal_proximity
+[3.687s] running install_egg_info
+[3.727s] Copying build/check_goal_proximity/check_goal_proximity.egg-info to /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages/check_goal_proximity-0.0.0-py3.10.egg-info
+[3.728s] running install_scripts
+[4.115s] Installing check_goal_proximity script to /home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/check_goal_proximity
+[4.115s] writing list of installed files to '/home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/install.log'
+[4.190s] Invoked command in '/home/tori/ros2_ws/src/check_goal_dist' returned '0': PYTHONPATH=/home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/check_goal_proximity build --build-base /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build install --record /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/install.log --single-version-externally-managed install_data

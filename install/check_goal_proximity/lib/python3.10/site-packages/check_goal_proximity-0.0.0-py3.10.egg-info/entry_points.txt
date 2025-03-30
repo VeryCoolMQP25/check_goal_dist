@@ -1,0 +1,2 @@
+[console_scripts]
+check_goal_proximity = check_goal_proximity.check_goal_proximity:main

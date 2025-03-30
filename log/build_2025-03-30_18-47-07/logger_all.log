@@ -1,0 +1,88 @@
+[0.264s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.264s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff99c30ee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff99c30a30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff99c30a30>>, mixin_verb=('build',))[0m
+[0.343s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.343s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.344s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.344s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.344s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.344s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.344s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/tori/ros2_ws/src/check_goal_dist'
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage '.' with type 'ros.ament_python' and name 'check_goal_proximity'[0m
+[0.378s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.378s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.378s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.378s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.378s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.414s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.414s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.420s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 12 installed packages in /home/tori/ros2_ws/install[0m
+[0.421s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 12 installed packages in /home/tori/ros2_ws/src/install[0m
+[0.425s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 321 installed packages in /opt/ros/humble[0m
+[0.427s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.507s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'check_goal_proximity' build argument 'cmake_args' from command line to 'None'
+[0.508s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'check_goal_proximity' build argument 'cmake_target' from command line to 'None'
+[0.508s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'check_goal_proximity' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.508s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'check_goal_proximity' build argument 'cmake_clean_cache' from command line to 'False'
+[0.508s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'check_goal_proximity' build argument 'cmake_clean_first' from command line to 'False'
+[0.508s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'check_goal_proximity' build argument 'cmake_force_configure' from command line to 'False'
+[0.508s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'check_goal_proximity' build argument 'ament_cmake_args' from command line to 'None'
+[0.508s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'check_goal_proximity' build argument 'catkin_cmake_args' from command line to 'None'
+[0.508s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'check_goal_proximity' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.508s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'check_goal_proximity' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity', 'merge_install': False, 'path': '/home/tori/ros2_ws/src/check_goal_dist', 'symlink_install': False, 'test_result_base': None}[0m
+[0.509s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.511s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.512s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/tori/ros2_ws/src/check_goal_dist' with build type 'ament_python'
+[0.512s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('check_goal_proximity', 'ament_prefix_path')
+[0.518s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.518s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/check_goal_proximity/hook/ament_prefix_path.ps1'
+[0.520s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/check_goal_proximity/hook/ament_prefix_path.dsv'
+[0.521s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/check_goal_proximity/hook/ament_prefix_path.sh'
+[0.522s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.522s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.022s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/tori/ros2_ws/src/check_goal_dist'
+[1.023s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.023s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.364s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/tori/ros2_ws/src/check_goal_dist': PYTHONPATH=/home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/check_goal_proximity build --build-base /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build install --record /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/install.log --single-version-externally-managed install_data[0m
+[4.706s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/tori/ros2_ws/src/check_goal_dist' returned '0': PYTHONPATH=/home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/check_goal_proximity build --build-base /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/build install --record /home/tori/ros2_ws/src/check_goal_dist/build/check_goal_proximity/install.log --single-version-externally-managed install_data[0m
+[4.715s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity' for CMake module files
+[4.717s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity' for CMake config files
+[4.719s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib'
+[4.719s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/bin'
+[4.719s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/pkgconfig/check_goal_proximity.pc'
+[4.720s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/lib/python3.10/site-packages'
+[4.720s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('check_goal_proximity', 'pythonpath')
+[4.721s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/check_goal_proximity/hook/pythonpath.ps1'
+[4.723s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/check_goal_proximity/hook/pythonpath.dsv'
+[4.723s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/check_goal_proximity/hook/pythonpath.sh'
+[4.724s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/bin'
+[4.724s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(check_goal_proximity)
+[4.725s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/check_goal_proximity/package.ps1'
+[4.728s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/check_goal_proximity/package.dsv'
+[4.730s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/check_goal_proximity/package.sh'
+[4.733s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/check_goal_proximity/package.bash'
+[4.735s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/check_goal_proximity/package.zsh'
+[4.738s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/tori/ros2_ws/src/check_goal_dist/install/check_goal_proximity/share/colcon-core/packages/check_goal_proximity)
+[4.739s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[4.740s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[4.741s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[4.741s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[4.743s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[4.743s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/tori/ros2_ws/src/check_goal_dist/install/local_setup.ps1'
+[4.746s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/tori/ros2_ws/src/check_goal_dist/install/_local_setup_util_ps1.py'
+[4.751s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/tori/ros2_ws/src/check_goal_dist/install/setup.ps1'
+[4.757s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/tori/ros2_ws/src/check_goal_dist/install/local_setup.sh'
+[4.758s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/tori/ros2_ws/src/check_goal_dist/install/_local_setup_util_sh.py'
+[4.759s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/tori/ros2_ws/src/check_goal_dist/install/setup.sh'
+[4.766s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/tori/ros2_ws/src/check_goal_dist/install/local_setup.bash'
+[4.767s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/tori/ros2_ws/src/check_goal_dist/install/setup.bash'
+[4.772s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/tori/ros2_ws/src/check_goal_dist/install/local_setup.zsh'
+[4.773s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/tori/ros2_ws/src/check_goal_dist/install/setup.zsh'

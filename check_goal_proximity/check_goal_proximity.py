@@ -19,7 +19,7 @@ class checkGoal(Node):
 
         self.floor_subscription = self.create_subscription(
             PoseWithCovarianceStamped,  # current_floor is of type Int32
-            '/amcl_pose geometry_msgs/msg/PoseWithCovarianceStamped',
+            '/amcl_pose',
             self.update_curr_pose,
             10
         )

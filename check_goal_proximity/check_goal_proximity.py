@@ -41,8 +41,8 @@ class checkGoal(Node):
         self.get_logger().info('Received curr pose: %s' % str(msg))
         self.current_pose = msg
 
-        curr_pose_x = abs(self.current_pose.pose.position.x)
-        curr_pose_y = abs(self.current_pose.pose.position.y)
+        curr_pose_x = abs(self.current_pose.pose.pose.x)
+        curr_pose_y = abs(self.current_pose.pose.pose.x)
         goal_pose_x = abs(self.goal_pose.pose.position.x)
         goal_pose_y = abs(self.goal_pose.pose.position.y)
 

@@ -47,7 +47,7 @@ class checkGoal(Node):
         goal_pose_y = abs(self.goal_pose.pose.position.y)
 
         # If goal is close publish close to goal is true
-        if abs(curr_pose_x - goal_pose_x) < 1 and abs(curr_pose_y - goal_pose_y) < 1: 
+        if abs(curr_pose_x - goal_pose_x) < 2 and abs(curr_pose_y - goal_pose_y) < 2: 
             self.get_logger().info("Close to goal!")
             self.goal_reached.data = 1
             self.publisher.publish(self.goal_reached)

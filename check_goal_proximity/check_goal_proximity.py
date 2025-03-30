@@ -7,7 +7,7 @@ from std_msgs.msg import Int32  # Import the message type to publish
 
 class checkGoal(Node):
     def __init__(self):
-        super().__init__('goal_pose_filter_node')
+        super().__init__('check_goal_proximity')
 
         # Default current & requested floor to 1
 

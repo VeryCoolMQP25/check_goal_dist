@@ -45,7 +45,7 @@ class checkGoal(Node):
             return 
         
         curr_pose_x = abs(self.current_pose.pose.pose.position.x)
-        curr_pose_y = abs(self.current_pose.pose.pose.position.x)
+        curr_pose_y = abs(self.current_pose.pose.pose.position.y)
         goal_pose_x = abs(self.goal_pose.pose.position.x)
         goal_pose_y = abs(self.goal_pose.pose.position.y)
 
